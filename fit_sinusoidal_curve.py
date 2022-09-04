@@ -2,7 +2,7 @@
 
 This code is adapted from unsym's answer to a stack overflow question, "How do
 I fit a sine curve to my data with pylab and numpy?".
-https://stackoverflow.com/questions/16716302/how-do-i-fit-a-sine-curve-to-my-data-with-pylab-and-numpy
+https://stackoverflow.com/questions/16716302
 
 """
 
@@ -17,7 +17,18 @@ def sinfunc(x, amp, omega, phi, offset):
 
 
 def fit_sin(x, y):
-    '''Fit sin to the input time sequence, and return fitting parameters "amp", "omega", "phase", "offset", "freq", "period" and "fitfunc
+    '''fit a sinusoidal curve given x and y coordinates
+    Initial guesses of the amplitude (amp), angular frequency (omega) and DC
+    offset are calculated. The function returns the best fitting parameters.
+
+    Inputs
+        x
+        y
+    Outputs
+        fit_amp
+        fit_omega
+        fit_phi
+        fit_offset
     "'''
 
     # assume uniform spacing
