@@ -6,6 +6,12 @@
 	],
 	"settings": {
 		"cSpell.words": [
+			"astype",
+			"fobj",
+			"imshow",
+			"JFIF",
+			"Kaggle",
+			"keras",
 			"pcov",
 			"popt",
 			"sinfunc",
