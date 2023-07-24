@@ -52,7 +52,7 @@ print(f'{num_bad_imgs} bad images removed')
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 image_size = (180, 180)
-batch_size = 64
+batch_size = 16
 
 train_ds, val_ds = tf.keras.utils.image_dataset_from_directory(
     PATH_TO_DATA,

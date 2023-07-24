@@ -6,16 +6,24 @@
 	],
 	"settings": {
 		"cSpell.words": [
+			"argmax",
 			"astype",
+			"fftfreq",
 			"fobj",
 			"imshow",
 			"JFIF",
 			"Kaggle",
+			"kagglecatsanddogs",
 			"keras",
+			"numpy",
 			"pcov",
 			"popt",
+			"scipy",
+			"seaborn",
 			"sinfunc",
+			"xlabel",
 			"yfit",
+			"ylabel",
 			"ynoise"
 		]
 	}
