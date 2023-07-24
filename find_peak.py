@@ -41,7 +41,7 @@ def main():
     peaks, _ = find_peaks(ecg, prominence=1)
     peak = peaks[np.argmax(ecg[peaks])]
 
-    plt.style.use('seaborn-poster')
+    plt.style.use('seaborn-v0_8-poster')
     fig, ax = plt.subplots(1, 1)
     ax.plot(ecg)
     ax.plot(peak, ecg[peak], 'X')

@@ -87,7 +87,7 @@ def main():
     print(f'{fit_amp=:.2f}\t{fit_omega=:.2f}\t{fit_phi=:.2f}\t'
           f'{fit_offset=:.2f}')
 
-    plt.style.use('seaborn-poster')
+    plt.style.use('seaborn-v0_8-poster')
     _, ax = plt.subplots()
     ax.plot(x, y, label='perfect y')
     ax.plot(x, ynoise, label='noisy y')
