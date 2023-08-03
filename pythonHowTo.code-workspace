@@ -8,23 +8,33 @@
 		"cSpell.words": [
 			"argmax",
 			"astype",
+			"crossentropy",
+			"dtype",
 			"fftfreq",
 			"fobj",
+			"IMREAD",
 			"imshow",
+			"imwrite",
 			"JFIF",
 			"Kaggle",
 			"kagglecatsanddogs",
 			"keras",
+			"newaxis",
 			"numpy",
 			"pcov",
 			"popt",
+			"relu",
 			"scipy",
 			"seaborn",
 			"sinfunc",
+			"sklearn",
 			"xlabel",
+			"xpts",
 			"yfit",
 			"ylabel",
-			"ynoise"
+			"ylim",
+			"ynoise",
+			"ypts"
 		]
 	}
 }
